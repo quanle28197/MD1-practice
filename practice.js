@@ -1,0 +1,10 @@
+let inputPhysics = prompt('Enter the Physics');
+let inputChemis = prompt('Enter the Chemis');
+let inputBiology = prompt('Enter the Biology');
+let Physics = parseInt(inputPhysics);
+let Chemis = parseInt(inputChemis);
+let Biology = parseInt(inputBiology);
+let avarage = (Physics + Chemis + Biology) / 3;
+let total = Physics + Chemis + Biology;
+document.write('Average = ' + avarage);
+document.write('Total =' + total);
